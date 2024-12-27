@@ -1,0 +1,15 @@
+.bg-primary-color-10pct {
+  background: var(--lumo-primary-color-10pct);
+}
+
+.bg-primary-color-50pct {
+  background: var(--lumo-primary-color-50pct);
+}
+
+.bg-primary-color {
+  background: var(--lumo-primary-color);
+}
+
+.bg-primary-contrast-color {
+  background: var(--lumo-primary-contrast-color);
+}

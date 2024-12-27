@@ -23,19 +23,21 @@
     "@vaadin/vaadin-themable-mixin": "24.5.5",
     "@vaadin/vaadin-usage-statistics": "2.1.3",
     "construct-style-sheets-polyfill": "3.1.0",
-    "date-fns": "4.1.0",
+    "date-fns": "2.29.3",
+    "i18next": "^24.2.0",
     "lit": "3.2.1",
     "proj4": "2.12.1",
-    "react": "19.0.0",
+    "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-router-dom": "7.0.2"
+    "react-i18next": "^15.2.0",
+    "react-router-dom": "6.28.0"
   },
   "devDependencies": {
     "@babel/preset-react": "7.26.3",
     "@preact/signals-react-transform": "0.4.0",
     "@rollup/plugin-replace": "6.0.1",
     "@rollup/pluginutils": "5.1.3",
-    "@types/react": "19.0.1",
+    "@types/react": "18.3.13",
     "@types/react-dom": "18.3.1",
     "@vaadin/hilla-generator-cli": "24.5.8",
     "@vaadin/hilla-generator-core": "24.5.8",
@@ -47,12 +49,19 @@
     "@vaadin/hilla-generator-plugin-signals": "24.5.8",
     "@vaadin/hilla-generator-plugin-subtypes": "24.5.8",
     "@vaadin/hilla-generator-utils": "24.5.8",
-    "@vitejs/plugin-react": "4.3.4",
+    "@vitejs/plugin-react": "4.3.3",
     "async": "3.2.6",
-    "glob": "11.0.0",
+    "autoprefixer": "^10.4.20",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "glob": "10.4.5",
+    "postcss": "^8.4.49",
     "rollup-plugin-brotli": "3.1.0",
     "rollup-plugin-visualizer": "5.12.0",
     "strip-css-comments": "5.0.0",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
     "transform-ast": "2.4.4",
     "typescript": "5.6.3",
     "vite": "5.4.11",
@@ -83,19 +92,19 @@
       "@vaadin/vaadin-themable-mixin": "24.5.5",
       "@vaadin/vaadin-usage-statistics": "2.1.3",
       "construct-style-sheets-polyfill": "3.1.0",
-      "date-fns": "4.1.0",
+      "date-fns": "2.29.3",
       "lit": "3.2.1",
       "proj4": "2.12.1",
-      "react": "19.0.0",
+      "react": "18.3.1",
       "react-dom": "18.3.1",
-      "react-router-dom": "7.0.2"
+      "react-router-dom": "6.28.0"
     },
     "devDependencies": {
       "@babel/preset-react": "7.26.3",
       "@preact/signals-react-transform": "0.4.0",
       "@rollup/plugin-replace": "6.0.1",
       "@rollup/pluginutils": "5.1.3",
-      "@types/react": "19.0.1",
+      "@types/react": "18.3.13",
       "@types/react-dom": "18.3.1",
       "@vaadin/hilla-generator-cli": "24.5.8",
       "@vaadin/hilla-generator-core": "24.5.8",
@@ -107,9 +116,9 @@
       "@vaadin/hilla-generator-plugin-signals": "24.5.8",
       "@vaadin/hilla-generator-plugin-subtypes": "24.5.8",
       "@vaadin/hilla-generator-utils": "24.5.8",
-      "@vitejs/plugin-react": "4.3.4",
+      "@vitejs/plugin-react": "4.3.3",
       "async": "3.2.6",
-      "glob": "11.0.0",
+      "glob": "10.4.5",
       "rollup-plugin-brotli": "3.1.0",
       "rollup-plugin-visualizer": "5.12.0",
       "strip-css-comments": "5.0.0",
@@ -121,7 +130,7 @@
       "workbox-core": "7.3.0",
       "workbox-precaching": "7.3.0"
     },
-    "hash": "c1f066d5815c89d61aeb64080db1e20c18da95a82f29e8b22b94b7e3b98f3b1c"
+    "hash": "97fa6224c64a46cef59381561e9ea880ea0815628a35850b82471f2771827db2"
   },
   "overrides": {
     "@vaadin/bundles": "$@vaadin/bundles",
@@ -160,6 +169,8 @@
     "@vaadin/react-components-pro": "$@vaadin/react-components-pro",
     "@vaadin/vaadin-themable-mixin": "$@vaadin/vaadin-themable-mixin",
     "@vaadin/vaadin-lumo-styles": "$@vaadin/vaadin-lumo-styles",
-    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles"
+    "@vaadin/vaadin-material-styles": "$@vaadin/vaadin-material-styles",
+    "i18next": "$i18next",
+    "react-i18next": "$react-i18next"
   }
 }

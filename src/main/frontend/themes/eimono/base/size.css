@@ -1,0 +1,24 @@
+.size-xs {
+	width: var(--lumo-size-xs);
+	height: var(--lumo-size-xs);
+}
+
+.size-s {
+	width: var(--lumo-size-s);
+	height: var(--lumo-size-s);
+}
+
+.size-m {
+	width: var(--lumo-size-m);
+	height: var(--lumo-size-m);
+}
+
+.size-l {
+	width: var(--lumo-size-l);
+	height: var(--lumo-size-l);
+}
+
+.size-xl {
+	width: var(--lumo-size-xl);
+	height: var(--lumo-size-xl);
+}

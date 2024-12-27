@@ -1,0 +1,11 @@
+.bg-success-10pct {
+  background: var(--lumo-success-color-10pct);
+}
+
+.bg-success-50pct {
+  background: var(--lumo-success-color-50pct);
+}
+
+.bg-success {
+  background: var(--lumo-success-color);
+}

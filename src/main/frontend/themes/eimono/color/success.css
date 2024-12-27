@@ -1,0 +1,15 @@
+.text-success-10pct {
+  color: var(--lumo-success-color-10pct);
+}
+
+.text-success-50pct {
+  color: var(--lumo-success-color-50pct);
+}
+
+.text-success {
+  color: var(--lumo-success-color);
+}
+
+.text-success-contrast {
+  color: var(--lumo-success-contrast-color);
+}

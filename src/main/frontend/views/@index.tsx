@@ -1,32 +1,25 @@
-import { Button, Notification, TextField } from '@vaadin/react-components';
-import { HelloEndpoint } from 'Frontend/generated/endpoints.js';
-import { useSignal } from '@vaadin/hilla-react-signals';
-import type { ViewConfig } from '@vaadin/hilla-file-router/types.js';
+import { TabSheet, TabSheetTab } from '@vaadin/react-components';
+import { useTranslation } from 'react-i18next';
+import { useState, useEffect } from 'react';
 
-export const config: ViewConfig = {
-  menu: {
-    title: 'Main page',
-  },
-};
+import HomeTabSheet from '../components/tab/sheet/HomeTabSheet';
 
-export default function MainView() {
-  const name = useSignal('');
+export default function MainView(){
+ const { t, i18n } = useTranslation();
 
-  return (
-    <>
-      <TextField
-        label="Your name"
-        onValueChanged={(e) => {
-          name.value = e.detail.value;
-        }}
-      />
-      <Button
-        onClick={async () => {
-          const serverResponse = await HelloEndpoint.sayHello(name.value);
-          Notification.show(serverResponse);
-        }}>
-        Say hello
-      </Button>
-    </>
-  );
+ return (
+   <TabSheet theme="equal-width-tabs">
+     <TabSheetTab label={t('home')}>
+       <HomeTabSheet/>
+     </TabSheetTab>
+
+     <TabSheetTab label="Payment">
+       <div>This is the Payment tab content</div>
+     </TabSheetTab>
+
+     <TabSheetTab label="Shipping">
+       <div>This is the Shipping tab content</div>
+     </TabSheetTab>
+   </TabSheet>
+ );
 }

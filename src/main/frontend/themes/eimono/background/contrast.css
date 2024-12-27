@@ -1,0 +1,43 @@
+.bg-contrast-5pct {
+  background: var(--lumo-contrast-5pct);
+}
+
+.bg-contrast-10pct {
+  background: var(--lumo-contrast-10pct);
+}
+
+.bg-contrast-20pct {
+  background: var(--lumo-contrast-20pct);
+}
+
+.bg-contrast-30pct {
+  background: var(--lumo-contrast-30pct);
+}
+
+.bg-contrast-40pct {
+  background: var(--lumo-contrast-40pct);
+}
+
+.bg-contrast-50pct {
+  background: var(--lumo-contrast-50pct);
+}
+
+.bg-contrast-60pct {
+  background: var(--lumo-contrast-60pct);
+}
+
+.bg-contrast-70pct {
+  background: var(--lumo-contrast-70pct);
+}
+
+.bg-contrast-80pct {
+  background: var(--lumo-contrast-80pct);
+}
+
+.bg-contrast-90pct {
+  background: var(--lumo-contrast-90pct);
+}
+
+.bg-contrast {
+  background: var(--lumo-contrast);
+}

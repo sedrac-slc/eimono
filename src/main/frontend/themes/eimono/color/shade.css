@@ -1,0 +1,43 @@
+.text-shade-5pct {
+  color: var(--lumo-shade-5pct);
+}
+
+.text-shade-10pct {
+  color: var(--lumo-shade-10pct);
+}
+
+.text-shade-20pct {
+  color: var(--lumo-shade-20pct);
+}
+
+.text-shade-30pct {
+  color: var(--lumo-shade-30pct);
+}
+
+.text-shade-40pct {
+  color: var(--lumo-shade-40pct);
+}
+
+.text-shade-50pct {
+  color: var(--lumo-shade-50pct);
+}
+
+.text-shade-60pct {
+  color: var(--lumo-shade-60pct);
+}
+
+.text-shade-70pct {
+  color: var(--lumo-shade-70pct);
+}
+
+.text-shade-80pct {
+  color: var(--lumo-shade-80pct);
+}
+
+.text-shade-90pct {
+  color: var(--lumo-shade-90pct);
+}
+
+.text-shade {
+  color: var(--lumo-shade);
+}

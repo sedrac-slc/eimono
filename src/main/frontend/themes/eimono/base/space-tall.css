@@ -1,0 +1,16 @@
+
+ .space-tall-xs {
+     padding: var(--lumo-space-tall-xs);
+}
+ .space-tall-s {
+     padding: var(--lumo-space-tall-s);
+}
+ .space-tall-m {
+     padding: var(--lumo-space-tall-m);
+}
+ .space-tall-l {
+     padding: var(--lumo-space-tall-l);
+}
+ .space-tall-xl {
+     padding: var(--lumo-space-tall-xl);
+}

@@ -1,0 +1,11 @@
+.bg-error-10pct {
+  background: var(--lumo-error-color-10pct);
+}
+
+.bg-error-50pct {
+  background: var(--lumo-error-color-50pct);
+}
+
+.bg-error {
+  background: var(--lumo-error-color);
+}

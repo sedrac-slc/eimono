@@ -1,0 +1,44 @@
+.bg-shade-5pct {
+  background: var(--lumo-shade-5pct);
+}
+
+.bg-shade-10pct {
+  background: var(--lumo-shade-10pct);
+}
+
+.bg-shade-20pct {
+  background: var(--lumo-shade-20pct);
+}
+
+.bg-shade-30pct {
+  background: var(--lumo-shade-30pct);
+}
+
+.bg-shade-40pct {
+  background: var(--lumo-shade-40pct);
+}
+
+.bg-shade-50pct {
+  background: var(--lumo-shade-50pct);
+}
+
+.bg-shade-60pct {
+  background: var(--lumo-shade-60pct);
+}
+
+.bg-shade-70pct {
+  background: var(--lumo-shade-70pct);
+}
+
+.bg-shade-80pct {
+  background: var(--lumo-shade-80pct);
+}
+
+.bg-shade-90pct {
+  background: var(--lumo-shade-90pct);
+}
+
+.bg-shade {
+  background: var(--lumo-shade);
+}
+

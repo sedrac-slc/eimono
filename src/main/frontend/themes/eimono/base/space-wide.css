@@ -1,0 +1,16 @@
+
+ .space-wide-xs {
+     padding: var(--lumo-space-wide-xs);
+}
+ .space-wide-s {
+     padding: var(--lumo-space-wide-s);
+}
+ .space-wide-m {
+     padding: var(--lumo-space-wide-m);
+}
+ .space-wide-l {
+     padding: var(--lumo-space-wide-l);
+}
+ .space-wide-xl {
+     padding: var(--lumo-space-wide-xl);
+}

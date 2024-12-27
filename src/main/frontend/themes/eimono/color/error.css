@@ -1,0 +1,15 @@
+.text-error-10pct {
+  color: var(--lumo-error-color-10pct);
+}
+
+.text-error-50pct {
+  color: var(--lumo-error-color-50pct);
+}
+
+.text-error {
+  color: var(--lumo-error-color);
+}
+
+.text-error-contrast {
+  color: var(--lumo-error-contrast-color);
+}

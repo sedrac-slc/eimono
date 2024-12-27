@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react';
 import HomeTabSheet from '../components/tab/sheet/HomeTabSheet';
 
 export default function MainView(){
- const { t, i18n } = useTranslation();
+ const { t } = useTranslation();
 
  return (
    <TabSheet theme="equal-width-tabs">

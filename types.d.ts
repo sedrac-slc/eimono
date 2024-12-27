@@ -15,3 +15,15 @@ declare module 'csstype' {
     [index: `--${string}`]: any;
   }
 }
+
+// Allow PNG files as modules
+declare module '*.png' {
+  const content: string;
+  export default content;
+}
+
+// Allow SVG files as modules
+declare module '*.svg' {
+  const content: string;
+  export default content;
+}
